@@ -31,20 +31,9 @@ struct ContentView: View {
             .navigationTitle("iTour")
             .navigationDestination(for: Destination.self, destination: EditDestinationView.init)
             .toolbar{
-                Button("Add Samples", action: addSamples)
                 Button("Add Destinantion", systemImage: "plus", action: addDestination)
             }
         }
-    }
-    
-    func addSamples(){
-        let rome = Destination(name: "Rome")
-        let florance = Destination(name: "Florence")
-        let naples = Destination(name: "Naples")
-        
-        modelContext.insert(rome)
-        modelContext.insert(florance)
-        modelContext.insert(naples)
     }
     
     func addDestination(){

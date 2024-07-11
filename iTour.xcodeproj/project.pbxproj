@@ -11,6 +11,8 @@
 		EF77813A2C40096400EBC8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781392C40096400EBC8CE /* ContentView.swift */; };
 		EF77813C2C40096600EBC8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF77813B2C40096600EBC8CE /* Assets.xcassets */; };
 		EF77813F2C40096600EBC8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF77813E2C40096600EBC8CE /* Preview Assets.xcassets */; };
+		EF7781462C4009C900EBC8CE /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781452C4009C900EBC8CE /* Destination.swift */; };
+		EF7781482C400E9600EBC8CE /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781472C400E9600EBC8CE /* EditDestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EF7781392C40096400EBC8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF77813B2C40096600EBC8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF77813E2C40096600EBC8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF7781452C4009C900EBC8CE /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		EF7781472C400E9600EBC8CE /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				EF7781372C40096400EBC8CE /* iTourApp.swift */,
 				EF7781392C40096400EBC8CE /* ContentView.swift */,
+				EF7781472C400E9600EBC8CE /* EditDestinationView.swift */,
 				EF77813B2C40096600EBC8CE /* Assets.xcassets */,
 				EF77813D2C40096600EBC8CE /* Preview Content */,
+				EF7781452C4009C900EBC8CE /* Destination.swift */,
 			);
 			path = iTour;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				EF77813A2C40096400EBC8CE /* ContentView.swift in Sources */,
 				EF7781382C40096400EBC8CE /* iTourApp.swift in Sources */,
+				EF7781462C4009C900EBC8CE /* Destination.swift in Sources */,
+				EF7781482C400E9600EBC8CE /* EditDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

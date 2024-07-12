@@ -61,9 +61,9 @@
 				EF7781392C40096400EBC8CE /* ContentView.swift */,
 				EF7781492C40158200EBC8CE /* DestinationListingView.swift */,
 				EF7781472C400E9600EBC8CE /* EditDestinationView.swift */,
+				EF7781452C4009C900EBC8CE /* Destination.swift */,
 				EF77813B2C40096600EBC8CE /* Assets.xcassets */,
 				EF77813D2C40096600EBC8CE /* Preview Content */,
-				EF7781452C4009C900EBC8CE /* Destination.swift */,
 			);
 			path = iTour;
 			sourceTree = "<group>";
